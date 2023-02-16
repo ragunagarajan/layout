@@ -1,0 +1,366 @@
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.container {
+	width:1170px;
+	margin-left:auto;
+	margin-right:auto;
+	padding:0 15px 0 15px;
+}
+.flex-container {
+	display:flex;
+	flex-wrap:wrap;
+	margin:0 -15px 0 -15px;
+	padding:0 15px 0 15px;
+}
+.flex-item1{
+	width:8.3%;
+	flex:0 0 auto;
+	padding:0 15px 0 15px;
+}
+.flex-item2{
+	width:16.6%;
+	flex:0 0 auto;
+	padding:0 15px 0 15px;
+}
+.flex-item3{
+	width:25%;
+	flex:0 0 auto;
+	padding:0 15px 0 15px;
+}
+.flex-item4{
+	width:33.3%;
+	flex:0 0 auto;
+	padding:0 15px 0 15px;
+}
+.flex-item5{
+	width:41.6%;
+	flex:0 0 auto;
+	padding:0 15px 0 15px;
+}
+.flex-item6{
+	width:50%;
+	flex:0 0 auto;
+	padding:0 15px 0 15px;
+}
+.flex-item7{
+	width:58.3%;
+	flex:0 0 auto;
+	padding:0 15px 0 15px;
+}
+.flex-item8{
+	width:66.6%;
+	flex:0 0 auto;
+	padding:0 15px 0 15px;
+}
+.flex-item9{
+	width:75%;
+	flex:0 0 auto;
+	padding:0 15px 0 15px;
+}
+.flex-item10{
+	width:83.3%;
+	flex:0 0 auto;
+	padding:0 15px 0 15px;
+}
+.flex-item11{
+	width:91.6%;
+	flex:0 0 auto;
+	padding:0 15px 0 15px;
+}
+.flex-item12{
+	width:100%;
+	flex:0 0 auto;
+	padding:0 15px 0 15px;
+}
+/* layout coloring */
+header {
+	background-color:red;
+	height:120px;
+}
+.mentor {
+	background-color:black;
+	height:50px;
+	width:120px;
+}
+.nav-links {
+	background-color:black;
+	height:50px;
+	width:700px;
+}
+/* background image */
+.banner-section {
+    padding:80px 0 80px 0;
+	width:auto;
+	background-color:yellow;
+}
+.content {
+	background-color:#ff000587;
+	height:100px;
+	width:300px;
+}
+/* Info details */
+.info-section {
+	background-color:red;
+	width:auto;
+	padding:70px 0 70px 0;
+}
+.info-content {
+	background-color:green;
+	height:100px;
+	width:100%;
+}
+.info-image {
+	background-color:pink;
+    height:100px;
+	width:100%;
+}
+/* course and teacher numbers */
+.numbers {
+	background-color:blue;
+	width:auto;
+	padding:70px 0 70px 0;
+}
+.student-no {
+	background-color:yellow;
+	height:100px;
+	width:auto;	
+}
+.course-no {
+	background-color:red;
+	height:100px;
+	width:auto;	
+}
+.event-no {
+	background-color:green;
+	height:100px;
+	width:auto;	
+}
+.teacher-no {
+	background-color:black;
+	height:100px;
+	width:auto;	
+}
+/* Review section */
+.review {
+	background-color:black;
+	width:auto;
+	padding:80px 0 80px 0;
+}
+.learn-more {
+	background-color:red;
+	height:170px;
+	width:auto;
+}
+.learn-box {
+	background-color:green;
+	height:130px;
+	width:auto;
+	display:flex;
+	flex:0 0 auto;
+    align-items:center;	
+}
+.alin-center {
+	align-items:center;
+}
+.box-1 {
+	background-color:blue;
+	height:50px;
+	width:auto;
+}
+.box-2 {
+	background-color:yellow;
+	height:50px;
+	width:auto;
+}
+.box-3 {
+	background-color:pink;
+	height:50px;
+	width:auto;
+}
+/* List item */
+.list {
+	background-color:pink;
+	width:auto;
+	padding:80px 0 80px 0;
+}
+.first-line-content {
+	background-color:powderblue;
+	height:80px;
+	width:auto;
+	display:flex;
+	flex:0 0 auto;
+    align-items:center;
+}
+.con1 {
+	background-color:blue;
+	height:50px;
+	width:auto;
+}
+.con2 {
+	background-color:blue;
+	height:50px;
+	width:auto;
+}
+.con3 {
+	background-color:blue;
+	height:50px;
+	width:auto;
+}
+.con4 {
+	background-color:blue;
+	height:50px;
+	width:auto;
+}
+.second-line-content {
+	background-color:powderblue;
+	height:80px;
+	width:auto;
+	display:flex;
+	flex:0 0 auto;
+    align-items:center;
+}
+.third-line-content {
+	background-color:powderblue;
+	height:80px;
+	width:auto;
+	display:flex;
+	flex:0 0 auto;
+    align-items:center;
+}
+/* Course details */
+.course {
+	width:auto;
+	background-color:green;
+	padding:30px 0 30px 0;
+}
+.first-course {
+	background-color:brown;
+	height:300px;
+	width:auto;
+}
+.second-course {
+	background-color:black;
+	height:300px;
+	width:auto;
+}
+.third-course {
+	background-color:yellow;
+	height:300px;
+	width:auto;
+}
+.heading-input {
+	height:30px;
+	width:30%;
+	background-color:red;
+    margin: 0 -15px 10px 15px;
+    padding: 0 15px 0 15px;
+ }
+ .first-course-details {
+	 background-color:blue;
+	 height:20px;
+	 width:auto;
+ }
+  .second-course-details {
+	 background-color:blue;
+	 height:20px;
+	 width:auto;
+ }
+  .third-course-details {
+	 background-color:blue;
+	 height:20px;
+	 width:auto;
+ }
+  .first-course-icon {
+	 background-color:white;
+	 height:10px;
+	 width:auto;
+ }
+   .second-course-icon {
+	 background-color:white;
+	 height:10px;
+	 width:auto;
+ }
+   .third-course-icon {
+	 background-color:white;
+	 height:10px;
+	 width:auto;
+ }
+ /* Founder details */
+ .founder {
+	width:auto;
+	background-color:black;
+	padding:20px 0 20px 0;
+}
+.walter-image {
+	background-color:red;
+	height:300px;
+	width:auto;
+}
+.sarah-image {
+	background-color:blue;
+	height:300px;
+	width:auto;
+}
+.william-image {
+	background-color:pink;
+	height:300px;
+	width:auto;
+}
+/* Useful links */
+.useful-links {
+	width:auto;
+	background-color:blue;
+	padding:20px 0 20px 0;
+}
+
+.network-details {
+	background-color:white;
+	height:200px;
+	width:auto;
+}
+.mentor-links1 {
+	background-color:green;
+	height:200px;
+	width:auto;
+}
+.mentor-links2 {
+	background-color:green;
+	height:200px;
+	width:auto;
+}
+.mentor-links-service {
+	background-color:yellow;
+	width:auto;
+	display:flex;
+	flex-wrap:wrap;
+	margin:0 -15px 0 -15px;
+	padding:15px 15px 15px 15px;
+}
+.mentor-links3 {
+	background-color:green;
+	height:200px;
+	width:auto;
+}
+/* footer section */
+.end-of-page {
+	background-color:grey;
+	height:100px;
+	width:auto;
+}
+.copy-rights {
+	background-color:pink;
+	height:50px;
+	width:auto;
+}
+.social-media-icon {
+	background-color:black;
+	height:50px;
+	width:auto;
+}
+.ends {
+	padding:20px 0 20px 0;
+	justify-content:space-between;
+}
